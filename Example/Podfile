@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MRefreshControl_Example' do
+  pod 'MRefreshControl', :path => '../'
+
+  target 'MRefreshControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
