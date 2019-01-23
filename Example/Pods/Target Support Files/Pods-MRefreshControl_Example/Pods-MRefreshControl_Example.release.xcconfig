@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MAESCrypt" "${PODS_CONFIGURATION_BUILD_DIR}/MExtensions" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh" "${PODS_CONFIGURATION_BUILD_DIR}/MLocalizedStringKit" "${PODS_CONFIGURATION_BUILD_DIR}/MRefreshControl" "${PODS_CONFIGURATION_BUILD_DIR}/MUIFont" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MAESCrypt/MAESCrypt.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MExtensions/MExtensions.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh/MJRefresh.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MLocalizedStringKit/MLocalizedStringKit.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MRefreshControl/MRefreshControl.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MUIFont/MUIFont.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "MAESCrypt" -framework "MExtensions" -framework "MJRefresh" -framework "MLocalizedStringKit" -framework "MRefreshControl" -framework "MUIFont" -framework "SDWebImage"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

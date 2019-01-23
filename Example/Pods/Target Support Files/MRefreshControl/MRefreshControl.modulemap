@@ -1,0 +1,6 @@
+framework module MRefreshControl {
+  umbrella header "MRefreshControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

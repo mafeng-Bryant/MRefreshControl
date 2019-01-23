@@ -1,0 +1,6 @@
+framework module MExtensions {
+  umbrella header "MExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

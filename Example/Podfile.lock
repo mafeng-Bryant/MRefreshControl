@@ -1,0 +1,48 @@
+PODS:
+  - MAESCrypt (1.0.0)
+  - MExtensions (2.0.5):
+    - MAESCrypt (~> 1.0.0)
+    - MLocalizedStringKit (~> 1.0.0)
+    - MUIFont (~> 1.0.0)
+    - SDWebImage
+  - MJRefresh (3.1.15.7)
+  - MLocalizedStringKit (1.0.0)
+  - MRefreshControl (1.0.0):
+    - MExtensions (~> 2.0.5)
+    - MJRefresh (~> 3.1.15.3)
+    - MLocalizedStringKit (~> 1.0.0)
+    - MUIFont (~> 1.0.0)
+  - MUIFont (1.0.0)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+
+DEPENDENCIES:
+  - MRefreshControl (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJRefresh
+    - SDWebImage
+  https://github.com/mafeng-Bryant/Specs:
+    - MAESCrypt
+    - MExtensions
+    - MLocalizedStringKit
+    - MUIFont
+
+EXTERNAL SOURCES:
+  MRefreshControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MAESCrypt: baf33916e9cd34febc561d0f1b6c639d719175e2
+  MExtensions: 222a94b1eb52dbdaecc61a754daa3e9f631a003f
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MLocalizedStringKit: 6a7a076c228d94347ab9f37794e028e62591028c
+  MRefreshControl: f8bf8b5205e1374505f17ce396233255dcd49513
+  MUIFont: 52cc9d5e4e147dfb10adcb4421363a2b17454fd4
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+
+PODFILE CHECKSUM: 52bdb982006ef2ede096090d6ae61d515b8c5c80
+
+COCOAPODS: 1.5.3

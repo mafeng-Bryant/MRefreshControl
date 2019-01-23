@@ -1,0 +1,6 @@
+framework module MUIFont {
+  umbrella header "MUIFont-umbrella.h"
+
+  export *
+  module * { export * }
+}
